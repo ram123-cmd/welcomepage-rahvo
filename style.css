@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.streak-icon {
+    display: block;
+    width: 80px;
+    height: auto;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #703ba5aa;
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+h1 span:first-child {
+    color: rgb(210, 198, 198);
+}
+
+h1 span:last-child {
+    color: #68329efd;
+}
+
+p.description {
+    color: rgb(210, 198, 198);
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+p.quote {
+    color: rgb(210, 198, 198);
+    font-size: 18px;
+    text-align: center;
+}
+
+.holdingphone-icon {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 200px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    margin: 12px auto;
+    width: 70px;
+    max-width: 350px;
+    padding: 14px;
+    border-radius: 14px;
+    font-size: 18px;
+}
+
+button:first-of-type {
+    background-color: #4b1d79fd;
+    color: white;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+}
+
+button:first-of-type:hover {
+    background-color: #68329efd;
+    transition: background-color 0.1s ease;
+}
+
+button:last-of-type {
+    background-color: #05030a;
+    color: white;
+    border: 1px solid #292633;
+    width: 50%;
+    cursor: pointer;
+}
+
+button:last-of-type:hover {
+    background-color: #292633;
+    transition: background-color 0.1s ease;
+}
